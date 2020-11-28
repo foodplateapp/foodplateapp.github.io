@@ -51,7 +51,8 @@
      * @param  {String} filename 檔名  
      */  
     var saveFile = function (data, filename) {  
-        var save_link = document.createElementNS('http://www.test.org/xhtml', 'a');  
+        /*var save_link = document.createElementNS('http://www.test.org/xhtml', 'a');  */
+         var save_link = document.createElementNS('https://foodplateapp.github.io/Wobble.html', 'a');  
         save_link.href = data;  
         save_link.download = filename;  
   
