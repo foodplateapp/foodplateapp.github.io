@@ -372,9 +372,9 @@ var app = new Vue({
                 random:function(){
                   var random1 = Math.floor(Math.random()*(this.works.length-1))+1;
                   var random2 = Math.floor(Math.random()*(this.works.length-1))+1;
-                  while(random1==random2){
-                    random2 = Math.floor(Math.random()*(this.works.length-1))+1;
-                  }
+                  //while(random1==random2){
+                  //  random2 = Math.floor(Math.random()*(this.works.length-1))+1;
+                  //}
                   var str1 ='';
                   var str2 ='';
                   this.vote_work_1=str1;
